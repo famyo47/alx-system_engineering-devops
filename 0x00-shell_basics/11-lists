@@ -1,2 +1,2 @@
 #!/bin/bash
-(ls -al | cat) & (ls -al ../ | cat) & (ls -al /boot/ | cat) & wait
+ls -la . & ls -la .. & ls -la /boot
